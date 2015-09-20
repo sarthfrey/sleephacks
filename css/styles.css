@@ -25,6 +25,11 @@ html
 	padding-right:0.5%;
 	
 }
+#name, #logo
+{
+	float:left;
+	padding-left:1%;
+}
 
 #sleep_title {
 	color: #cdc9c9;
@@ -128,12 +133,3 @@ a
 	text-decoration: none;
 }
 
-
-.joinbutton
-{
-	float : left;
-}
-.hostbutton
-{
-	float:right;
-}
