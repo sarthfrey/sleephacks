@@ -20,6 +20,16 @@
       <span id="sleep_title">sleep</span>hacks
     </h2>
     </a>
+	<a id="logout" href="https:
+	//www.google.com/accounts/ServiceLogin?
+	service=ah&passive=true&continue=https://
+	appengine.google.com/_ah/conflogin%3Fconti
+	nue%3Dhttp://gcp-hackthenorth-3033.appspot.
+	com/hackathon%253Fhackathon_name%253DPennApps
+	&ltmpl=gm&shdf=CiELEgZhaG5hbWUaFUdDUCBIYWNrVG
+	hlTm9ydGggMzAzMwwSAmFoIhR2OdnodQ9c3ZqI40OoCJZ
+	OIzCQISgBMhTJi6H5GHXfWN9aD6A_e5OimtaLEw">Login</a>
+	
     <a id = "logout" href="http://gcp-hackthenorth-3033.appspot.com
     /_ah/logout?continue=https://www.google.com/accounts
     /Logout%3Fcontinue%3Dhttps://appengine.google.com/_
@@ -31,9 +41,11 @@
   <div id="top-left-anchor">
 	  <a href='home.html'><img id="back-button" src="./images/back-button.png"/></a>
   </div>
+    <div class="body">
+  <div class="top">
 	<div class="listing">
   	<p>
-    <span>Preferred Genders: None</span><span>Cost: None</span> 
+    <span>Preferred Genders: None | </span><span>Cost: None</span> 
   	</p>
     <div class = "message">
       <p>
@@ -42,14 +54,21 @@
     </div>
 	</div>
 	<div class="listing">
-	<blockquote>Message: VAGINA <br />Preferred Genders: None <br />Cost: None </blockquote></div>
+	<p>
+	<span>Preferred Genders: None | </span><span>Cost: None</span> 
+	</p>
+	<div class = "message">
+      <p>
+        Message: Room 1
+      </p>
+    </div>
+	</div>
     
-	
-	
-	
-  <form action="/update?hackathon_name=PennApps" method="post">
-        <p>Message</p>
-      <div><textarea name="content" rows="3" cols="60"></textarea></div>
+	</div>
+	<div class="hline">
+		<hr>
+	</div>
+	<div class="bottom">
       <div>
       
 	  <p>Which genders are you willing to accomodate?</p>
@@ -67,10 +86,13 @@
       <input type="radio" name="cost" value="Yes">Yes</input>
       <br>
       <input type="radio" name="cost" value="No" checked>No</input>
-      <br /><br />
+	    <form action="/update?hackathon_name=PennApps" method="post">
+        <p>Message</p>
+      <div><textarea name="content" rows="3" cols="60"></textarea></div>
       <div><input type="submit" value="Create Availability"></div>
     </form>
-    <hr>
-    <a href="https://www.google.com/accounts/ServiceLogin?service=ah&passive=true&continue=https://appengine.google.com/_ah/conflogin%3Fcontinue%3Dhttp://gcp-hackthenorth-3033.appspot.com/hackathon%253Fhackathon_name%253DPennApps&ltmpl=gm&shdf=CiELEgZhaG5hbWUaFUdDUCBIYWNrVGhlTm9ydGggMzAzMwwSAmFoIhR2OdnodQ9c3ZqI40OoCJZOIzCQISgBMhTJi6H5GHXfWN9aD6A_e5OimtaLEw">Login</a>
+
+  </div>
+  </div>
   </body>
 </html>
