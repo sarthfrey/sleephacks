@@ -19,11 +19,14 @@ html
 }
 .topbar
 {
-	/*background-color:#8b8989;*/
+	background-color:#5C5C5C;
 	color: black;
 	padding:0.25%;
 	padding-right:0.5%;
-	
+	height: 40px;
+}
+#logo {
+	margin-top: 5px;
 }
 #name, #logo
 {
@@ -126,10 +129,24 @@ td
 {
 	float:right;
 	color:white;
+	margin-top: 7px;
+	margin-right: 15px;
 }
 a
 {
 	color:white;
 	text-decoration: none;
+}
+
+#back-button {
+	width: 5%;
+	height: auto;
+	float: left;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+#top-left-anchor {
+	position: fixed;
 }
 

@@ -1,16 +1,45 @@
 
 <html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>sleephacks - accomodation</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+    <link rel="icon" href="http://icons.iconarchive.com/icons/sonya/swarm/256/Zzz-icon.png"/>
+  </head>
 	<body>
-	<a href='/'>
-	<p><< Back to Hackathons</p>
-	</a>
+  <div class="topbar">
+    <a href="index.html">
+    <img id = "logo" title="logo" src="http://icons.iconarchive.com/icons/sonya/swarm/256/Zzz-icon.png"
+      alt="logo" width="25" height = "25"/>
+    <h2 id="name">
+      <span id="sleep_title">sleep</span>hacks
+    </h2>
+    </a>
+    <a id = "logout" href="http://gcp-hackthenorth-3033.appspot.com
+    /_ah/logout?continue=https://www.google.com/accounts
+    /Logout%3Fcontinue%3Dhttps://appengine.google.com/_
+    ah/logout%253Fcontinue%253Dhttp://gcp-hackthenorth-
+    3033.appspot.com/%26service%3Dah">
+      Logout
+    </a>
+  </div>
+  <div id="top-left-anchor">
+	  <a href='home.html'><img id="back-button" src="./images/back-button.png"/></a>
+  </div>
 	<div class="listing">
-	<blockquote>Message: Room 1 
-		<br />
-		Preferred Genders: None 
-		<br />
-		Cost: None 
-	</blockquote>
+  	<p>
+    <span>Preferred Genders: None</span><span>Cost: None</span> 
+  	</p>
+    <div class = "message">
+      <p>
+        Message: Room 1
+      </p>
+    </div>
 	</div>
 	<div class="listing">
 	<blockquote>Message: VAGINA <br />Preferred Genders: None <br />Cost: None </blockquote></div>
@@ -18,7 +47,7 @@
 	
 	
 	
-	<form action="/update?hackathon_name=PennApps" method="post">
+  <form action="/update?hackathon_name=PennApps" method="post">
         <p>Message</p>
       <div><textarea name="content" rows="3" cols="60"></textarea></div>
       <div>
