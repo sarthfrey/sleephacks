@@ -166,7 +166,7 @@ a
 }
 .socialmedia
 {
-	margin-top: 20%;
+	margin-top: 1%;
 	margin-left: 30%;
 
 }
@@ -190,5 +190,10 @@ a
 #create
 {
 	margin-top:4%;
+}
+#sleepers img {
+	height: 150px;
+	width: auto;
+	border-radius: 400px;
 }
 
